@@ -12,4 +12,4 @@ Turn clean code into the most over-engineered, unreadable, enterprise-level lega
 - Multiple chaos levels (Mild / Nightmare / Legacy)
 
 ## Demo
-[Live Demo on GitHub Pages](https://nickryans.github.io/badcode/)
+[Live Demo on GitHub Pages](https://nickryans.github.io/BadCode/)
