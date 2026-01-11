@@ -1,16 +1,15 @@
-# BadCode™
+# BadCode™ Legacy Generator
 
-BadCode™ is a developer tool that transforms clean, readable code into
-over-engineered, legacy-style code commonly found in enterprise systems.
+Turn clean code into the most over-engineered, unreadable, enterprise-level legacy code.
 
 ## Features
-- Variable name destruction
+- Randomized variable destruction
 - Unnecessary nesting
-- Fake corporate comments
-- Multiple chaos levels
+- Corporate passive-aggressive comments
+- Animated processing loader
+- Copy output button
+- Dark terminal theme
+- Multiple chaos levels (Mild / Nightmare / Legacy)
 
-## Why?
-Because understanding bad code means you understand good code.
-
-## Disclaimer
-Do not use in production. Or do. Like many companies.
+## Demo
+[Live Demo on GitHub Pages](https://nickryans.github.io/badcode/)

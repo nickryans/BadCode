@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>BadCode™ Generator</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1>BadCode™</h1>
-  <p>Turn clean code into enterprise-grade legacy code.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BadCode™ Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>BadCode™</h1>
+    <p>Turn clean code into enterprise-grade legacy code.</p>
 
-  <textarea id="input" placeholder="Paste clean code here..."></textarea>
+    <textarea id="input" placeholder="Paste clean code here..."></textarea>
 
-  <select id="mode">
-    <option value="mild">Mild</option>
-    <option value="nightmare">Interview Nightmare</option>
-    <option value="legacy">Corporate Legacy</option>
-  </select>
+    <select id="mode">
+      <option value="mild">Mild</option>
+      <option value="nightmare">Interview Nightmare</option>
+      <option value="legacy">Corporate Legacy</option>
+    </select>
 
-  <button onclick="makeItWorse()">Make It Worse</button>
+    <button onclick="makeItWorse()">Make It Worse</button>
 
-  <textarea id="output" placeholder="Terrible code appears here..."></textarea>
+    <div id="loader" style="display: none">
+      Processing<span id="dots">...</span>
+    </div>
 
-  <script src="script.js"></script>
-</body>
+    <textarea
+      id="output"
+      placeholder="Terrible code appears here..."
+    ></textarea>
+
+    <button onclick="copyOutput()">Copy Terrible Code</button>
+
+    <script src="script.js"></script>
+
+    <!-- Include Acorn via CDN in HTML -->
+    <!-- Rename variables without breaking scope and analyze code structure. -->
+    <script src="https://cdn.jsdelivr.net/npm/acorn@8.8.1/dist/acorn.min.js"></script>
+
+  </body>
 </html>

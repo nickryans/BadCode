@@ -1,7 +1,7 @@
 body {
-  font-family: monospace;
+  font-family: 'Courier New', monospace;
   background: #0f0f0f;
-  color: #e0e0e0;
+  color: #00ff9c;
   padding: 20px;
 }
 
@@ -13,12 +13,18 @@ textarea {
   border: 1px solid #333;
   margin-bottom: 10px;
   padding: 10px;
+  resize: vertical;
 }
 
 button, select {
   padding: 10px;
   margin-bottom: 10px;
   background: #00ff9c;
+  color: #0f0f0f;
   border: none;
   cursor: pointer;
+}
+
+button:hover {
+  background: #00d68f;
 }
